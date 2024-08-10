@@ -4,7 +4,7 @@ import Image from "next/image";
 import Card from "./Card";
 import { useTranslations } from "next-intl";
 
-export default function page() {
+export default function Page() {
   const t = useTranslations("constituency");
   const news = [
     {

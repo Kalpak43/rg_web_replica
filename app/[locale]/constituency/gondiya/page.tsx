@@ -3,7 +3,7 @@ import "../../issues/style.css";
 import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 
-export default function bhandara() {
+export default function Bhandara() {
   const t = useTranslations("constituency");
   const issues = [
     {

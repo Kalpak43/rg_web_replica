@@ -10,7 +10,7 @@ import { Montserrat } from "next/font/google";
 
 const mons = Montserrat({ subsets: ["latin"] });
 
-const states = () => {
+const States = () => {
   const t = useTranslations("constituency");
   return (
     <main className={mons.className}>
@@ -54,4 +54,4 @@ const states = () => {
   );
 };
 
-export default states;
+export default States;

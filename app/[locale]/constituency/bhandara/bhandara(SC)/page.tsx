@@ -18,7 +18,7 @@ const roboto_f = Roboto_Flex({ subsets: ["latin"] });
 
 const hero_banner = "/assets/LandingPage/hero_new.jpg";
 
-export default function page() {
+export default function Page() {
   const t = useTranslations("constituency.bhandara");
   return (
     <div>
